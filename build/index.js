@@ -11,7 +11,7 @@ function newsUi() {
     for (let key = 0; key < rows; key++) {
         modalList[key] = `modal-${key}`;
         const Card = document.createElement('div');
-        Card.classList.add('card', 'col-md-4');
+        Card.classList.add('card', 'col-12','col-md-4');
         const cardImg = document.createElement('img');
         cardImg.classList.add('card-img-top');
         cardImg.src = 'img/img1.svg';
